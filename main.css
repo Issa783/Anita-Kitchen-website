@@ -1,0 +1,29 @@
+body {
+    background-image: url("landing.jpg");
+}
+.circle {
+    border-radius: 50%;
+    background-color: white;
+    transform: translate(-50%,-30%);
+    left:50%;
+    top:30%;
+    width: 250px;
+    height: 250px;
+    position:absolute;
+
+}
+.circle h2 {
+    padding-left: 95px;
+    padding-top: 20px;
+    color:#f15a29;
+    font-size: 25px;
+    font-weight: 900;
+}
+.icon {
+    color:#f15a29;
+    position: absolute;
+}
+.circle h3 {
+    color:#f15a29;
+    padding-top: 80px;
+}
