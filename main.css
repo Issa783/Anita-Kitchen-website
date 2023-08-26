@@ -45,11 +45,7 @@ background-color: white;
     padding:10px;
     margin-left:90px;
     border:1px solid lightgray;
-    box-shadow: 2px 2px white;
-}
-.picture2{
-    padding-top: -10px;
-
+    position:absolute;
 }
 .arrow h3 {
     border:1px solid #fa1429;
@@ -64,15 +60,18 @@ background-color: white;
     color:#fa1429;
 }
 .drinks h2 {
-    margin-left: 30%;
+    margin-left: 35%;
     font-weight: bold;
-    margin-top: 70px;
+    padding-top: 200px;
+    
 }
 .drinks h3 {
-    margin-left: 25%;
+    margin-left: 20%;
+    padding-top: -100px;
 }
 .drinks p{
-    margin-left: 20%;
+    margin-left: 15%;
+    padding-top: -200px;
 }
 .pic1 {
     float:right;
@@ -82,5 +81,18 @@ background-color: white;
     border:1px solid lightgray;
     padding: 10px;
     position: absolute;
-    margin-top: -180px;
+    margin-top: -350px;
+}
+.arrow1 h3 {
+    border:1px solid #fa1429;
+    padding: 15px;
+    color: #fa1429;
+    width: 200px;
+    text-align: center;
+    margin-left: 25%;
+}
+.arrow1 h3 i {
+    margin-left: 6px;
+    font-size:14px;
+    color:#fa1429;
 }
