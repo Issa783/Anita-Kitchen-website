@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-body {
-    background-image: url("landing.jpg");
+.menu{
+    background: url("landing.jpg") no repeat;
 }
 .picture {
     position: absolute;
@@ -22,4 +22,44 @@ margin-top: 350px;
 margin-left: 550px;
 color:rgba(255,255,255,0.5);
 letter-spacing: 1.5px;
+}
+.fast-food {
+margin-top:600px;
+background-color: white;
+}
+.fast-food h2 {
+    margin-left:50%;
+    font-weight: bold;
+    padding-top: 60px;
+}
+.fast-food h3{
+    margin-left: 50%;
+}
+.fast-food p{
+    margin-left: 50%;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding:10px;
+    margin-left:90px;
+    border:1px solid lightgray;
+    box-shadow: 2px 2px white;
+}
+.picture2{
+    padding-top: -10px;
+
+}
+.arrow h3 {
+    border:1px solid #fa1429;
+    padding: 15px;
+    color: #fa1429;
+    width: 200px;
+    text-align: center;
+}
+.arrow h3 i {
+    margin-left: 6px;
+    font-size:14px;
+    color:#fa1429;
 }
