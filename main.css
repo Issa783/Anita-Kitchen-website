@@ -63,3 +63,24 @@ background-color: white;
     font-size:14px;
     color:#fa1429;
 }
+.drinks h2 {
+    margin-left: 30%;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.drinks h3 {
+    margin-left: 25%;
+}
+.drinks p{
+    margin-left: 20%;
+}
+.pic1 {
+    float:right;
+    display: flex;
+    flex-direction: row;
+    margin-left: 45%;
+    border:1px solid lightgray;
+    padding: 10px;
+    position: absolute;
+    margin-top: -180px;
+}
