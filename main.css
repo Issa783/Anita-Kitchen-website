@@ -4,7 +4,7 @@
 
 .menu{
     background: url("landing.jpg") ;
-    height:900px;
+    height:600px;
 }
 .picture {
     position: absolute;
@@ -24,8 +24,47 @@ margin-left: 550px;
 color:rgba(255,255,255,0.5);
 letter-spacing: 1.5px;
 }
+.menu ul {
+    display: flex;
+    overflow: hidden;
+    background-color: orangered;
+    list-style-type: none;
+    
+}
+.menu ul li a {
+    float:left;
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 30px 100px;
+    text-decoration: none;
+    border:none;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
+.happy-hour{
+    background-color: white;
+}
+.party-time{
+    background-color: orangered;
+}
+.breakfast{
+    background:url("breakfast.jpg");
+}
+.lunch{
+    background: url("lunch.jpg");
+    opacity: 0.5;
+}
+.dinner{
+    background:url("dinner.jpg");
+}
+.active {
+    background-color: white;
+    color:black;
+}
 .fast-food {
-margin-top:100px;
+margin-top:200px;
 background-color: white;
 }
 .fast-food h2 {
@@ -152,11 +191,19 @@ ul li a {
     text-align: center;
     color:#fa1429;
 
+
+}
+.picture5 img {
+    margin-right: 15px;
 }
 .picture6 h2 {
     font-size: 15px;
     text-align: center;
     color:#fa1429;
+    
+}
+.picture6 img{
+    margin-right: 15px;
 }
 .picture7 h2{
     font-size: 15px;
@@ -206,6 +253,12 @@ ul li a {
     position: absolute;
     padding-top: 70px;
 }
+.picture9{
+    margin-right: 10px;
+}
+.picture10{
+    margin-right: 10px;
+}
 .border {
     border-left: 1px solid gray;
     height: 230px;
@@ -224,8 +277,8 @@ ul li a {
 .about p {
     
     padding-left: 600px;
-    padding-top: -100px;
-    position: absolute;
+    padding-top: -230px;
+
 }
 .pic3 {
     display: flex;
@@ -261,9 +314,10 @@ ul li a {
         text-align: left;
         font-weight: bold;
         margin-top: 80px;
+        border-radius: 2px;
     }
     .subscribe {
-        margin-left: 65%;
+        margin-top: 80px;
         padding: 15px 8px;
            width:300px;
            color:white;
@@ -273,13 +327,87 @@ ul li a {
            font-size:15px;
            text-align: center;
            font-weight: bold;
-           margin-top: -60px;     
+           position: absolute;
+           margin-left: 20px;
+           border-radius: 2px;
+           
     }
-    .icon1 i {
+    .picture9 i {
     color: #fa1429;
     font-size: 24px;
     position: absolute; 
-    margin-left:20px;
+    margin-left:-70px;
+    margin-top: 10px;
     }
+    .picture11 i {
+        color: #fa1429;
+        font-size: 24px;
+        position: absolute; 
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+   
+    .footer {
+        background-color: orangered;
+        height:350px;
+        margin-top: -10px;
+    }
+    .picture12 {
+        display: flex;
+        margin-left:40%;
+        padding-top: 50px;
+    }
+    .footer h1 {
+        margin-left: 45%;
+        color:white;
+        margin-top:-40px ;
+        display: flex;
+    }
+    .footer h3 {
+        margin-left: 40%;
+        color:white;
+    }
+    .pic4 {
+        display: flex;
+        float:left;
+        margin-left:40%;
+        position: absolute;
+        margin-top:20px;
+    }
+    .picture13{
+        margin-right:13px;
+    }
+    .picture14{
+        margin-right: 13px;
+    }
+    .picture13 i {
+        color:orangered;
+        font-size: 12px;
+        transform: translate(-12%,-35%);
+        left:12%;
+        top:35%;
+        position: absolute;
+    }
+    .picture14 i {
+        color:orangered;
+        font-size: 12px;
+        transform: translate(-50%,-50%);
+        left:50%;
+        top:50%;
+        position: absolute;
+    }
+    .picture15 i {
+        color:orangered;
+        font-size: 12px;
+        transform: translate(140%,-50%);
+        left:70%;
+        top:50%;
+        position: absolute;
+    }
+    .footer h4 {
+        margin-left: 40%;
+        color:white;
+        margin-top: 130px;
+        position: absolute;
 
-
+    }
