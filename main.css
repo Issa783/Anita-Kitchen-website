@@ -3,7 +3,8 @@
 }
 
 .menu{
-    background: url("landing.jpg") no repeat;
+    background: url("landing.jpg") ;
+    height:900px;
 }
 .picture {
     position: absolute;
@@ -24,7 +25,7 @@ color:rgba(255,255,255,0.5);
 letter-spacing: 1.5px;
 }
 .fast-food {
-margin-top:600px;
+margin-top:100px;
 background-color: white;
 }
 .fast-food h2 {
@@ -95,4 +96,70 @@ background-color: white;
     margin-left: 6px;
     font-size:14px;
     color:#fa1429;
+}
+.items{
+    background: url("foodsBg.jpg");
+    height: 600px;
+    margin-top: 150px;
+}
+.food {
+    margin-left: 80px;
+    background-color: white;
+    height: 380px;
+    margin-top: 100px;
+    width: 85%;
+    position: absolute;
+}
+ul {
+    background-color: lightgray;
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+li {
+    float:left;
+    border-right: 1px solid gray;
+}
+li:last-child {
+    border-right: none;
+}
+ul li a {
+    text-decoration: none;
+    padding: 10px 80px;
+    color:black;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width:100%;
+}
+.active {
+    background-color: white;
+    color:#fa1429;
+}
+.flex-container{
+    float:left;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    margin-left:70px;
+    margin-top: 8px;
+}
+.picture5 h2 {
+    font-size: 15px;
+    text-align: center;
+    color:#fa1429;
+
+}
+.picture6 h2 {
+    font-size: 15px;
+    text-align: center;
+    color:#fa1429;
+}
+.picture7 h2{
+    font-size: 15px;
+    text-align: center;
+    color: #fa1429;
 }
