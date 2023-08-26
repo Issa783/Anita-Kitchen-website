@@ -17,3 +17,9 @@ body {
     color: white;
     font-size: 35px;
 }
+.text h2 {
+margin-top: 350px;
+margin-left: 550px;
+color:rgba(255,255,255,0.5);
+letter-spacing: 1.5px;
+}
