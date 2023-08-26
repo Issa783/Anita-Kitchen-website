@@ -174,7 +174,112 @@ ul li a {
     color: #fa1429;
     font-size: 24px;
     margin-left: 30px;
-    
     margin-top: 100px;
     position: absolute;
 }
+.happy-customer {
+    
+    padding:8px 24px;
+    margin-left: 5%;
+    border:1px solid gray;
+    margin-top: 50px;
+    height:300px;
+    box-shadow: 2px 2px gray;
+    
+}
+.happy-customer h2 {
+    color: #fa1429;
+    text-align: center;
+    padding-left: 120px;
+    position: absolute;
+}
+.happy-customer h3 {
+    color: black;
+    text-align: center;
+    padding-left: 150px;
+    position: absolute;
+    padding-top: 40px;
+}
+.happy-customer p {
+    text-align: center;
+    padding-left: 20px;
+    position: absolute;
+    padding-top: 70px;
+}
+.border {
+    border-left: 1px solid gray;
+    height: 230px;
+    margin-left: 500px;
+    position: absolute;
+    margin-top:30px ;
+}
+
+
+.about h2 {
+    color: #fa1429;
+    padding-top: -150px;
+    padding-left: 700px;
+    position:absolute;
+}
+.about p {
+    
+    padding-left: 600px;
+    padding-top: -100px;
+    position: absolute;
+}
+.pic3 {
+    display: flex;
+    margin-left:90px;
+    flex-direction: row;
+    float:left;
+    padding-top: 150px;
+    margin-right: 20px;
+    padding-left: 50px;
+
+}
+.contact {
+    background: url("subscribe.jpg");
+    height:250px;
+    margin-top: 30px;
+}
+.contact h2 {
+    color:white;
+    position: absolute;
+    text-align: center;
+    margin-left: 30%;
+    padding-top: 20px;
+}
+.email {
+    margin-left: 30%;
+     padding: 15px 8px;
+        width:400px;
+        color:white;
+        background-color: rgba(255,255,255,0.2);
+        border:none;
+        outline: none;
+        font-size:15px;
+        text-align: left;
+        font-weight: bold;
+        margin-top: 80px;
+    }
+    .subscribe {
+        margin-left: 65%;
+        padding: 15px 8px;
+           width:300px;
+           color:white;
+           background-color:orangered;
+           border:none;
+           outline: none;
+           font-size:15px;
+           text-align: center;
+           font-weight: bold;
+           margin-top: -60px;     
+    }
+    .icon1 i {
+    color: #fa1429;
+    font-size: 24px;
+    position: absolute; 
+    margin-left:20px;
+    }
+
+
