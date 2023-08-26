@@ -1,6 +1,8 @@
 # Anita's Kitchen Website
 This project consists of a website that generally showcases the various delicious meals and drinks offered at Anita's kitchen.
 
+You can access the live version of the Readme file by clicking this link https://github.com/Issa783/Anita-Kitchen-website/blob/master/README.md
+
 ## Tools
 The website is developed with :
 1. HTML5
